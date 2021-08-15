@@ -28,3 +28,7 @@ docker-compose up
 docker-compose exec prod sh
 
 https://medium.com/@durganath/how-to-deploy-java-application-using-tomcat-in-docker-aws-8ac5eb5b8226
+
+### build
+
+https://husbch.medium.com/mini-project-deploying-java-application-with-tomcat-bd7d96bfcc7
