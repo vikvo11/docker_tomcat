@@ -1,4 +1,8 @@
 # docker_tomcat
+
+apk fix musl
+
+
 1
 
 It turns out that all default tomcat apps have been removed from the webapps directory for all tomcat images starting with Tomcat version 7. All apps have been moved to /usr/local/tomcat/webapps.dist directory so that they are not launched by default. You can read about it here.
