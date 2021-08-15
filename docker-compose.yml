@@ -3,6 +3,6 @@ services:
   product-service:
     build: ./tomcat
     volumes:
-      - ./tomcat:/usr/src/app
+      - ./tomcat/app:/usr/local/tomcat/webapps
     ports:
       - 8888:8080
