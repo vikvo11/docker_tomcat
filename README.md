@@ -9,3 +9,8 @@ FROM tomcat:9.0
 RUN mv /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps/
 CMD ["catalina.sh","run"]
 or copy only the apps that you want. Also you will have to edit tomcat configuration files to not get 403 when accessing those apps.
+
+
+
+
+https://medium.com/@durganath/how-to-deploy-java-application-using-tomcat-in-docker-aws-8ac5eb5b8226
